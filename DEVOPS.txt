@@ -34,4 +34,6 @@ Tools: Nagios, Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana).
 Feedback from monitoring is sent back to planning.
 Ensures continuous improvement of the software.
 Plan → Code → Build → Test → Release → Deploy → Operate → Monitor → Feedback → (repeat)
+this is the way to lifecycle of devops
+
 
