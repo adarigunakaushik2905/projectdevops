@@ -1,0 +1,37 @@
+What is DevOps?
+DevOps is a set of practices that combine software development (Dev) and IT operations (Ops).
+Its goal is to shorten the software development life cycle and deliver high-quality software continuously.
+It emphasizes automation, collaboration, continuous integration (CI), and continuous delivery (CD).
+DevOps Life Cycle
+The DevOps life cycle is a continuous process that integrates development and operations. It is usually represented as an infinity loop (∞) showing continuous collaboration, integration, testing, delivery, deployment, monitoring, and feedback.
+Here are the main phases:
+1. Plan
+Define project requirements and goals.
+Use tools like Jira, Trello, Confluence for planning.
+2. Code
+Developers write code based on requirements.
+Version control systems like Git, GitHub, GitLab, Bitbucket are used.
+3. Build
+Source code is compiled, dependencies are added, and artifacts are created.
+Tools: Maven, Gradle, Jenkins, Bamboo.
+4. Test
+Automated tests are run to detect bugs early.
+Tools: JUnit, Selenium, TestNG, PyTest.
+5. Release
+Code is prepared for production release.
+Tools: Jenkins, GitLab CI/CD, Spinnaker.
+6. Deploy
+Code is deployed to staging/production environments automatically.
+Tools: Docker, Kubernetes, Ansible, Terraform.
+7. Operate
+Applications run smoothly in production.
+Teams ensure high availability and scalability.
+Tools: AWS, Azure, GCP.
+8. Monitor
+Monitor performance, logs, and user experience.
+Tools: Nagios, Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana).
+9. Feedback (Continuous Improvement)
+Feedback from monitoring is sent back to planning.
+Ensures continuous improvement of the software.
+Plan → Code → Build → Test → Release → Deploy → Operate → Monitor → Feedback → (repeat)
+
